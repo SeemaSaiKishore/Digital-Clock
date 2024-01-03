@@ -1,0 +1,47 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-color: rgb(red, green, blue);
+    height:100%;
+    width:100%
+}
+
+.container {
+    background-color:blue;
+    position:absolute;
+    height:100%;
+    width:100%;
+    text-align: center;
+}
+
+.clock {
+    background-color:aqua;
+    position:relative;
+    height:50px;
+    width:700px;
+    text-align:center;
+    padding:10px;
+    margin-left:28%;
+    margin-top:20%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+
+
+#Hours::after {
+    content:"HOURS";    
+}
+#Minutes::after {
+    content:"MINUTES";    
+}
+#Seconds::after {
+    content:"SECONDS";    
+}
+
+
+  
